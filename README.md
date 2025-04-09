@@ -2,22 +2,6 @@
 
 Este repositorio contiene mis apuntes, ejemplos y ejercicios mientras aprendo Python y programación desde cero.
 
-## Estructura del Repositorio
-
-```
-python-learning/
-├── README.md                 # Este archivo
-├── notes/                    # Apuntes detallados
-│   ├── basics/              # Conceptos básicos
-│   ├── data_structures/     # Estructuras de datos
-│   └── concepts/            # Conceptos avanzados
-├── examples/                # Ejemplos de código
-│   ├── basic_examples/     # Ejemplos básicos
-│   └── advanced_examples/  # Ejemplos avanzados
-└── exercises/              # Ejercicios prácticos
-    ├── basic_exercises/   # Ejercicios básicos
-    └── challenges/        # Desafíos
-```
 
 ## Contenido
 
