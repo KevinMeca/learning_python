@@ -61,6 +61,93 @@ print(f"OR: my_variable | my_variable2:{my_variable | my_variable2}") #11110
 print(f"XOR: my_variable ^ my_variable2:{my_variable ^ my_variable2}") #10000
 print(f"NOT: ~my_variable:{~my_variable}")
 
+'''
+Estructura de control
+'''
+#condicionales
+#if
+my_variable = 10
+if my_variable > 0:
+    print("my_variable es mayor que 0")
+else:
+    print("my_variable es menor que 0")
+
+#elif
+my_variable = 10
+if my_variable > 0:
+    print("my_variable es mayor que 0")
+elif my_variable == 0:
+    print("my_variable es igual a 0")
+else:
+    print("my_variable es menor que 0")
+
+#switch
+my_variable = 10
+match my_variable:
+    case 1:
+        print("my_variable es igual a 1")
+    case 2:
+        print("my_variable es igual a 2")
+    case _:
+        print("my_variable no es igual a 1 o 2")
+
+#iteraciones
+#ciclos
+#for
+for i in range(1,11):
+    print(i)    
+
+#while
+i = 1
+while i <= 10:
+    print(i)
+    i += 1  
+
+#break
+for i in range(1,11):
+    if i == 5:
+        break
+    print(i)    
+
+#continue
+for i in range(1,11):
+    if i == 5:
+        continue
+    print(i)        
+
+#funciones
+#def
+def my_function():
+    print("Hello, World!")
+
+my_function()
+
+#return
+def my_function():
+    return "Hello, World!"
+
+print(my_function())
+
+#lambda
+my_lambda = lambda x: x*2
+print(my_lambda(10))
+
+#map
+my_list = [1,2,3,4,5]
+
+#manejo de excepciones
+try:
+    my_variable = 10/0
+except ZeroDivisionError:
+    print("Error: Division por cero")   
+except Exception as e:
+    print(f"Error: {e}")
+finally:
+    print("Fin del programa") 
+
+
+
+
 
 
 
